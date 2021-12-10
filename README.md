@@ -33,7 +33,7 @@ We provide the bash script that generate adversarial examples and measure the ef
 
 ## Generated Adversarial Examples
 
-![](https://github.com/anonymousGithub2022/1/blob/main/fig/0002.jpg)
+![](https://github.com/anonymousGithub2022/1/blob/main/fig/0001%202.jpg)
 The first row shows the benign images and the second row shows the generated efficiency adversarial images.
 
 
