@@ -30,6 +30,9 @@ We provide the bash script that generate adversarial examples and measure the ef
 
 
 ## Efficiency Degradation Results
+![](https://github.com/anonymousGithub2022/1/blob/main/fig/res.jpg)
+The above figure shows the *efficiency* distribution of the benign images and the adversarial images. The ares under the cumulative distribution function (CDF) represent the victim NICG models' efficiency. A large area implies the model is less efficiency.
+
 
 ## Generated Adversarial Examples
 
