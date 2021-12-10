@@ -1,7 +1,17 @@
 # NICGSlowDown: Evaluating the Efficiency Robustness of Neural Image Caption Generation Models
 
 ## Description
+
+NICGSlowDown is designed to generate  **efficiency adversarial examples** to evaluate the efficiency robustness of NICG models.
+The generated adversarial examples are realistic and human-unnoticable images while consume more computational resources than benign images.
+
+
+
+## Approach Ovewview
 ![](https://github.com/anonymousGithub2022/1/blob/main/fig/0001.jpg)
+
+
+
 
 ## File Structure
 * **src** -main source codes.
