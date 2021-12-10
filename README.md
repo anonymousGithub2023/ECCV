@@ -1,7 +1,7 @@
 # NICGSlowDown: Evaluating the Efficiency Robustness of Neural Image Caption Generation Models
 
 ## Description
-
+![](https://github.com/anonymousGithub2022/1/blob/main/fig/nicg.pdf)
 
 ## File Structure
 * **src** -main source codes.
@@ -14,6 +14,7 @@
 
 
 ## How to run
-We provide the bash script that generate adversarial examples and measure the efficiency in **gpu4.sh**. So just run `bash gpu4.sh`
-**gpu5.sh**, **gpu6.sh**,**gpu7.sh** are implementing the similar functionality but for different gpus.
+We provide the bash script that generate adversarial examples and measure the efficiency in **gpu4.sh**. **gpu5.sh**, **gpu6.sh**,**gpu7.sh** are implementing the similar functionality but for different gpus. 
+
+ So just run `bash gpu4.sh`
 
