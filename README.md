@@ -1,7 +1,7 @@
 # NICGSlowDown: Evaluating the Efficiency Robustness of Neural Image Caption Generation Models
 
 ## Description
-![](https://github.com/anonymousGithub2022/1/blob/main/fig/nicg.pdf)
+![](https://github.com/anonymousGithub2022/1/blob/main/fig/0001.jpg)
 
 ## File Structure
 * **src** -main source codes.
