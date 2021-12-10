@@ -10,7 +10,7 @@ The generated adversarial examples are realistic and human-unnoticable images wh
 ## Approach Ovewview
 ![](https://github.com/anonymousGithub2022/1/blob/main/fig/0001.jpg)
 
-
+Our approach overview is shown in the above figure, for the detail design, please refer to our papers.
 
 
 ## File Structure
@@ -27,4 +27,13 @@ The generated adversarial examples are realistic and human-unnoticable images wh
 We provide the bash script that generate adversarial examples and measure the efficiency in **gpu4.sh**. **gpu5.sh**, **gpu6.sh**,**gpu7.sh** are implementing the similar functionality but for different gpus. 
 
  So just run `bash gpu4.sh`
+
+
+## Efficiency Degradation Results
+
+## Generated Adversarial Examples
+
+![](https://github.com/anonymousGithub2022/1/blob/main/fig/0002.jpg)
+The first row shows the benign images and the second row shows the generated efficiency adversarial images.
+
 
