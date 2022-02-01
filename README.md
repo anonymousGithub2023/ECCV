@@ -1,5 +1,7 @@
 # NICGSlowDown: Evaluating the Efficiency Robustness of Neural Image Caption Generation Models
 
+# Rebuttal Results
+## Hyperparameter Sensibility
 ### Sensibility In terms of Iteration Number $T$
 |Subject|L2| | |Linf| | |
 |:----|:----|:----|:----|:----|:----|:----|
@@ -16,6 +18,26 @@
 |B|581.32 |581.32 |581.32 |578.67 |581.32 |581.32|
 |C|533.58 |533.58 |533.58 |367.80 |481.75 |522.39|
 |D|482.67 |514.15 |521.47 |170.13 |225.68 |302.42 |
+
+## Adversarial Training Results
+
+### $L_{inf}# Results
+|I-Loop|A|B|C|D|
+|:----|:----|:----|:----|:----|
+|Before|354.11 |271.19 |379.81 |115.02|
+|After (Train)|7.50 |2.34 |0.15 |0.73 |
+|After (Test)|233.82 |150.31 |394.96 |106.55 |
+
+### $L_{2}# Results
+
+|I-Loop|A|B|C|D|
+|:----|:----|:----|:----|:----|
+|Before|483.8|481.32 |433.58 |408.90|
+|After (Train)|10.50 |6.42 |0.31 |0.42|
+|After (Test)|333.31 |432.31 |356.31 |300.31 |
+
+
+
 
 
 ## Description
@@ -57,8 +79,6 @@ The above figure shows the *efficiency* distribution of the benign images and th
 ![](https://github.com/anonymousGithub2022/1/blob/main/fig/0001%202.jpg)
 The first row shows the benign images and the second row shows the generated efficiency adversarial images.
 
-
-## Hyperparameter Sensibility
 
 
 
